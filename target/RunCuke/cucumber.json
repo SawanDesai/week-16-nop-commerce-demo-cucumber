@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#    @Register"
+          },
+          {
+            "line": 5,
+            "value": "#    Scenario: User should create account successfully"
+          },
+          {
+            "line": 6,
+            "value": "#    Given I am on homepage"
+          },
+          {
+            "line": 7,
+            "value": "#    When I click on register link"
+          },
+          {
+            "line": 8,
+            "value": "#    And I enters following users details"
+          },
+          {
+            "line": 9,
+            "value": "#      | Jay  | Vaghani    | jay@gmail.com  | 07878451263 | Harrow |"
+          },
+          {
+            "line": 10,
+            "value": "#      | Amit | Kathrotiya | amit@gmail.com | 07878451285 | Luton  |"
+          },
+          {
+            "line": 11,
+            "value": "#      | Aum  | Vaghani    | aum@gmail.com  | 07878454585 | Harrow |"
+          },
+          {
+            "line": 12,
+            "value": "#    Then registration successful"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 8310519600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify as a user I should Navigate to Register Page successfully",
+        "description": "",
+        "id": "register;verify-as-a-user-i-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 3128937000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 394410400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 928596400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136642100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should navigate to register page successfully",
+            "match": {
+              "location": "RegisterSteps.iShouldNavigateToRegisterPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "As a user I want to register into nop commerce website",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/register.feature"
+  }
+]
